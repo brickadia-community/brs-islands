@@ -1,0 +1,32 @@
+size: 2000 # the diameter of the island in cells (not studs)
+cell_size: 2 # must be >=2. the sidelength of a terrain cell
+simplex_scale: 0.007 # the scale at which noise is generated. higher = more intensely packed terrain
+simplex_color_scale: 0.014 # the scale at which the color height noisemap offset generates
+terrain_scale: 800 # the height in studs of the island when noise is 1.0
+stone_threshold: 0.01 # the difference in NOISE between a cell and its neighbors for it to render as stone
+falloff_height: 0.02 # cells with noise below this value are removed from the final save. (e.g. island margins)
+fbm_octaves: 7 # the number of octaves for FBM to use. higher = rougher terrain
+author:
+  username: x # your brickadia username
+  uuid: 3f5108a0-c929-4e77-a115-21f65096887b # your brickadia UUID (found by going to your profile, it's in the URL)
+
+sand_color: # color IDs from the colorset that the sand can use. duplicates are treated as weights
+ - 20
+dirt_color: # see above
+ - 17
+grass_color: # see above
+ - 24
+ - 25
+ - 25
+ - 25
+ - 26
+ - 28
+ - 28
+stone_color: # see above. represents the stone that forms when grass is too steep, NOT mountain stone
+ - 4
+mountain_stone_color: # see above. represents the stone that forms beneath snow
+ - 4
+snow_color: # see above
+ - 1
+
+output_file: island.brs

@@ -1,0 +1,17 @@
+name: brs-islands
+version: 0.1.0
+
+authors:
+  - voximity <zander@zanderf.net>
+
+targets:
+  brs-islands:
+    main: src/brs-islands.cr
+
+dependencies:
+  brs-cr:
+    github: voximity/brs-cr
+
+crystal: 0.34.0
+
+license: MIT
