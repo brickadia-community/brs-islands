@@ -1,8 +1,8 @@
-size: 2000 # the diameter of the island in cells (not studs)
+size: 800 # the diameter of the island in cells (not studs)
 cell_size: 2 # must be >=2. the sidelength of a terrain cell
 simplex_scale: 0.007 # the scale at which noise is generated. higher = more intensely packed terrain
 simplex_color_scale: 0.014 # the scale at which the color height noisemap offset generates
-terrain_scale: 800 # the height in studs of the island when noise is 1.0
+terrain_scale: 400 # the height in studs of the island when noise is 1.0
 stone_threshold: 0.01 # the difference in NOISE between a cell and its neighbors for it to render as stone
 falloff_height: 0.02 # cells with noise below this value are removed from the final save. (e.g. island margins)
 fbm_octaves: 7 # the number of octaves for FBM to use. higher = rougher terrain

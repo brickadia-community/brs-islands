@@ -4,13 +4,9 @@ Procedural island generator for Brickadia. Small experiment, not very customizab
 
 ## Installation
 
-`git clone https://github.com/brickadia-community/brs-islands.git`
+To install Crystal on Windows, follow [this guide](https://github.com/brickadia-community/brs-islands/wiki/Installing-on-Windows-(Installing-Crystal)).
 
-`cd brs-islands`
-
-`shards build`
-
-`./bin/brs-islands` after renaming `template_config.yml` to `config.yml` and configuring it
+To install and use `brs-islands`, follow [this guide](https://github.com/brickadia-community/brs-islands/wiki/Installing-&-Generating).
 
 ## Usage
 
